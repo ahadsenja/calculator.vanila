@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  border: 1px solid grey;
+  border-radius: 8px;
+  width: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.app .top-parts input {
+  width: 356px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.top-parts {
+  margin-bottom: 1rem;
+}
+
+.bottom-parts {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-parts button {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.bottom-parts .bottom-parts-1 {
+  display: flex;
+}
+
+.bottom-parts .bottom-parts-2 {
+  display: flex;
+}
